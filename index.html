@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de tu Página</title>
+</head>
+<body>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre y apellido" required>
+    
+        <select id="curso" required>
+            <option value="">Selecciona tu Curso</option>
+            <option value="1°">1°</option>
+            <option value="2°">2°</option>
+            <option value="3°">3°</option>
+            <option value="4°">4°</option>
+            <option value="5°">5°</option>
+            <option value="6°">6°</option>
+        </select>
+        
+        <select id="Division" required>
+            <option value="">Selecciona tu División</option>
+            <option value="1°">1°</option>
+            <option value="2°">2°</option>
+            <option value="3°">3°</option>
+            <option value="4°">4°</option>
+            <option value="5°">5°</option>
+            <option value="6°">6°</option>
+            <option value="7°">7°</option>
+            <option value="8°">8°</option>
+            <option value="9°">9°</option>
+            <option value="10°">10°</option>
+
+        </select>
+    
+        <button type="submit">Comenzar Cuestionario</button>
+    </form>
+
+    <form hidden id="Preguntas">
+        
+
+        <h3>¿Qué significan las siglas DOM?</h3>
+        <label for="respuesta">Document Organizer Model</label>   
+        <input type="radio" name="respuesta" value="a"> 
+
+        <label for="respuesta">Document Object Model</label>   
+        <input type="radio" name="respuesta" value="b"> 
+
+        <label for="respuesta">Document Of Mape</label> 
+        <input type="radio" name="respuesta" value="c"> 
+
+
+        <h3>¿Qué es una "Clase"?</h3>
+        <label for="respuesta2">Plantilla o molde para crear objetos.</label>
+        <input type="radio" name="respuesta2" value="a">
+
+        <label for="respuesta2">Objeto concreto creado a partir de una clase mediante el operador new.</label>
+        <input type="radio" name="respuesta2" value="b">    
+
+        <label for="respuesta2">Método especial que se invoca automáticamente al crear una instancia con new.</label>
+        <input type="radio" name="respuesta2" value="c">
+
+
+        <h3>¿Cuál de los siguientes objetos, NO pertenece a BOM?</h3>
+        <label for="respuesta3">window.alert()</label>
+        <input type="radio" name="respuesta3" value="a">
+
+        <label for="respuesta3">window.confirm()</label>
+        <input type="radio" name="respuesta3" value="b">
+
+        <label for="respuesta3">addEventListener()</label>
+        <input type="radio" name="respuesta3" value="c">
+
+
+        <h3>¿Para que nos sirve el comando "window.history"?</h3>
+        <label for="respuesta4">Nos proporciona el historial de las actualizaciones hechas en Windows.</label>
+        <input type="radio" name="respuesta4" value="a">
+
+        <label for="respuesta4">Nos muestra la información sobre el navegador y el sistema operativo.</label>
+        <input type="radio" name="respuesta4" value="b">
+
+        <label for="respuesta4">Es un método de navegación hacia atrás/adelante.</label>
+        <input type="radio" name="respuesta4" value="c">
+
+        <button type="submit">Continuar</button>
+        
+    </form>
+
+    <form hidden id="finall">
+
+            <p id ="resultado"></p>
+
+    </form>
+
+    <script src="java.js"></script>
+</body>
+</html>

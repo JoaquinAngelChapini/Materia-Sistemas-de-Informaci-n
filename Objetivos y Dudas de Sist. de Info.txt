@@ -1,0 +1,21 @@
+Objetivos:
+
+- Nuestro objetivo principal, era crear un cuestionario con preguntas y sus respuestas como multiple choice (parecido a Google Forms).
+
+- Otro objetivo que teníamos, era que una vez que el Alumno haya terminado el cuestionario, vuelva mediante un botón a la primer sección, para luego registrar un nuevo alumno y aprovechar mejor la Programación Orientada a Objetos para crear varias instancias. Aunque no lo logramos hacer, ya que no poseíamos el conocimiento necesario para repetir todos los procesos devuelta para una nueva instancia.
+
+Dudas: 
+
+- Una duda que teníamos, era la misma de como hacer para repetir todo el formulario a una nueva instancia.
+
+- Otra duda, era el uso del BOM para impedir que el Usuario cierre la página mediante un aviso o alerta.
+
+- Además, no sabíamos exactamente como usar o expresar un formato parecido al de Google Forms en JavaScript. (de manera que se vea ordenado y prolijo en la web, como si fuese un formulario de Google).
+
+- Teníamos como duda, como optimizar el código para que se visualice de manera simple en distintos formatos. (Teléfono, televisor, etc.)
+
+INTEGRANTES: 
+
+Joaquín Chapini
+Francisco Verdi
+Valentín Aguero
