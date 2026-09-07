@@ -1,0 +1,48 @@
+RESUMEN DE RESPUESTAS
+=======================
+
+1. 1. Identificar entidades
+Cliente, Pedido, Producto, Empleado
+
+2. 2. Atributos de cada entidad
+Cliente: nombre (simple), dirección (compuesta: calle, número, ciudad), email (multivaluado).
+Pedido: fecha (compuesta: día, mes, año), estado (simple), cliente asociado (simple)
+Producto: código (simple), nombre (simple), precio (simple), stock (simple)
+Empleado: nombre (simple)
+
+3. 3. Claves candidatas y clave primaria
+Cliente: candidatas {email, teléfono, codigoCliente}, PK = codigoCliente
+Producto: candidatas {códigoProducto}, PK = códigoProducto
+Pedido: candidatas {fecha, cliente, codigoPedido}, PK = codigoPedido
+Empleado: candidatas {nombre, codigoEmpleado}, PK = codigoEmpleado
+
+4. 4. Relaciones entre entidades
+Cliente - Pedido: realiza
+Pedido - Producto: contiene
+Empleado - Pedido: atiende
+
+5. 5. Cardinalidad de cada relación
+Cliente - Pedido: 1:N (un cliente puede tener muchos pedidos)
+Pedido - Producto: N:M (Un pedido puede contener muchos productos) ; (Un producto puede estar en varios pedidos)
+Empleado - Pedido: 1:N (Un Empleado puede atender varios Pedidos, pero cada pedido es atendido por solo un Empleado)
+
+6. 6. Atributos de las relaciones
+Cliente - Pedido: realiza (El cliente realiza un pedido)
+Pedido - Producto: contiene (El Pedido contiene el Producto)
+Empleado - Pedido: atiende (El empleado atiende  el Pedido)
+
+7. 7. Atributos multivaluados
+Email de Cliente es multivaluado. Crearé una tabla Email con campos: idEmail, direccion, idCliente (FK)
+
+8. 8. Tablas del diccionario de datos (I)
+(no respondido) - Tema no visto
+
+9. 9. Tablas del diccionario de datos (II)
+(no respondido) - Tema no visto
+
+10. 10. Listado final de tablas
+Cliente, Email, Producto, Pedido, Empleado, Pedido_Producto
+
+=======================
+📌 Recuerda: Dibuja el diagrama E-R en papel o con herramienta y súbelo junto con este resumen.
+
